@@ -1,0 +1,271 @@
+*{
+    box-sizing: border-box;
+}
+
+/* ************ */
+/* basic set up */
+/* ************ */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a,
+h1,
+h2,
+h4 {
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+}
+
+a {
+    color: #f1f1f1;
+}
+
+p {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* ****** */
+/* layout */
+/* ****** */
+
+/* header */
+
+header {
+    background: #66768a;
+    color: #f1f1f1;
+    height: 32.063em;
+}
+
+header nav {
+    width: 100%;
+    padding: 2% 0;
+    margin-left: 4%;
+}
+
+header nav ul li {
+    float: left;
+    width: 25%;
+    font-weight: bold;
+}
+
+.beginning {
+    width: 6%;
+}
+
+.logo{
+    width: 60%;
+    text-align: center;
+    margin-left: 1%;
+    margin-top: -1.25%;
+}
+
+.logo img {
+    width: 5%;
+}
+
+.donate a {
+    float: right;
+    margin-right: 20%;
+    padding: 2% 3%;
+    background: #f1f1f1;
+    color: #66768a;
+    border-radius: 5px;
+}
+
+header main {
+    clear: both;
+    padding: 10% 0;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 4.5rem;
+    font-weight: 900;
+    margin-bottom: .5em;
+    letter-spacing: 2px;
+}
+
+main p {
+    font-size: 1.25rem;
+    line-height: 1.25;
+    letter-spacing: .25px;
+}
+
+main span {
+    display: block;
+    margin-top: 1.25em;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.fa-play {
+    border: 2px solid #f1f1f1;
+    padding:  .5em;
+    border-radius: 50%;
+    margin-right: 1em;
+}
+
+main span + span {
+    margin-top: 2em;
+    color: #000;
+    font-size: .75rem;
+}
+
+h3{
+    text-transform: uppercase;
+}
+
+.second-part {
+    background: #fff;
+    height: 23.25em;
+}
+
+h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-top: 4em;
+    line-height: 2;
+}
+
+.second-part p,
+.fourth-part p{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 1.25em;
+    font-size: 1rem;
+    line-height: 2;
+    text-align: center;
+}
+
+.third-part {
+    background: #dbdfe2;
+    height: 38.813em;
+    float: left;
+    width: 100%;
+}
+
+.third-part section {
+    margin-top: 3.25em;
+    text-align: center;
+    float: left;
+    width: 50%;
+    padding: 2% 0;
+}
+
+.third-part section div {
+    width: 21.875em;
+    height: 12.5em;
+    background: #66768a;
+    margin: 0 auto;
+}
+
+.third-part section h3 {
+    font-size: 1.25rem;
+    margin: 2em;
+}
+
+.third-part section p {
+    width: 60%;
+    font-size: 1rem;
+    margin-bottom: 3em;
+}
+
+.third-part section > a {
+    display: inline-block;
+    color: #161f2a;
+    padding: 1em .75em;
+    border: 1px solid #66768a;
+}
+
+.fourth-part {
+    clear: both;
+    background: #fff;
+    height: 28.688em;
+}
+
+.fourth-part > h2 {
+    padding-top: 2.5em;
+}
+
+
+footer {
+    background: #161f2a;
+    color: #f1f1f1;
+    height: 14.875em;
+    padding-top: 1.25em;
+    padding-left: 2em;
+}
+
+footer section {
+    float: left;
+    width: 50%;
+    margin-bottom: 2em;
+}
+
+footer section h4 {
+    font-size: .75rem;
+    text-align: left;
+    color: #66768a;
+}
+
+.fa-square-facebook,
+.fa-twitter,
+.fa-envelope {
+    font-size: 1.5rem;
+    margin-right: 1.75em;
+    padding-bottom: .5em;
+}
+
+footer > div {
+    clear: both;
+    width: 90%;
+    border-top: 2px solid #f1f1f1;
+    margin: 10em auto;
+}
+
+footer div ul li {
+    float: left;
+    width: 15%;
+    font-size: .75rem;
+    padding-top: 1em;
+}
+
+footer section div + div{
+    padding-top: 1em;
+    padding-bottom: 0;
+    clear: both;
+}
+
+footer section + section div{
+    float: right;
+}
+
+footer section + section div ul li {
+    clear: both;
+    width: 100%;
+    margin-right: 12em;
+    line-height: .75;
+}
+
+footer section + section div h4 {
+    font-size: .95rem;
+    font-weight: 900;
+    width: 56%;
+    color: #ffffff;
+    margin-bottom: 1.5em;
+}
+
+footer div h5 {
+    float: left;
+    width: 60%;
+    padding-top: 1em;
+}
+
+footer div img {
+    float: right;
+    margin-top: .6em;
+    margin-right: 1%;
+    width: 2.5%;
+}
